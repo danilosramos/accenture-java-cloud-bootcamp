@@ -1,11 +1,5 @@
 # 🚀 Accenture Bootcamp - Java & Cloud Development
 <img width=100px src="https://assets.dio.me/8RcUe3w3vTHDVfWFik75MdHPa7ZXBqx_umEgmjw4lM8/f:webp/h:120/q:80/L3RyYWNrcy83ZjhjNWVmOS0xNmRiLTQyYTMtYjVkNS0xMTE0YjU5MWY0MmYucG5n" /> <img width=100px src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Accenture_logo.svg/1280px-Accenture_logo.svg.png" /> <img width=100px src="https://assets.dio.me/VTgUqMiPAIgvsFdSvgSnVAB5lrqnNxY_N8h8LknnQys/f:webp/q:80/w:120/L2Fzc2V0cy9kaW9tZS9sb2dvLWZ1bGwuc3Zn" />
-
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-
 ## 📌 About the Project
 
 This repository documents my evolution during the **Accenture Development Bootcamp**. The program focuses on building scalable back-end applications, covering everything from core Java fundamentals to Cloud deployment and AI integration.
@@ -54,7 +48,7 @@ I am following a structured learning path. Checked items `[x]` represent complet
 - [ ] **Design Patterns:** Singleton, Strategy, Factory, etc.
 - [ ] **DevOps:** Containerization with Docker.
 - [ ] **Cloud:** Deploying applications to AWS.
-```
+<!--
 ## 🏆 Featured Projects (Portfolio)
 
 While this repository contains exercises, larger projects are hosted in dedicated repositories to simulate a real production environment.
@@ -63,7 +57,7 @@ While this repository contains exercises, larger projects are hosted in dedicate
 | :--- | :--- | :--- |
 | **[Project Name 1]** | *(Link to repo)* | *Ex: REST API for Bank Transactions* | Java, Spring, H2 |
 | **[Project Name 2]** | *(Link to repo)* | *Ex: Design Patterns Implementation* | Java, GoF Patterns |
-```
+-->
 ## 🤝 Contributing
 
 Contributions are welcome! If you find any issue or have a suggestion to optimize the code:
