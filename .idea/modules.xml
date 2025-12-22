@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Java Development Fundamentals/Java Development Fundamentals.iml" filepath="$PROJECT_DIR$/Java Development Fundamentals/Java Development Fundamentals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-java-development-fundamentals/Java Development Fundamentals.iml" filepath="$PROJECT_DIR$/01-java-development-fundamentals/Java Development Fundamentals.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/accenture-java-cloud-bootcamp.iml" filepath="$PROJECT_DIR$/.idea/accenture-java-cloud-bootcamp.iml" />
     </modules>
   </component>
