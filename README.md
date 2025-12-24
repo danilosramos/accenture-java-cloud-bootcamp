@@ -32,7 +32,7 @@ Here, I commit my daily progress, coding challenges, and notes on software archi
 I am following a structured learning path. Checked items `[x]` represent completed modules.
 
 ### **Phase 1: Java Fundamentals**
-- [ ] **Environment Setup:** JDK configuration, IDEs, and Version Control.
+- [x] **Environment Setup:** JDK configuration, IDEs, and Version Control.
 - [ ] **Core Java:** Syntax, Data Types, Control Flow.
 - [ ] **POO (OOP):** Encapsulation, Inheritance, Polymorphism, Abstraction.
 - [ ] **Data Structures:** Lists, Sets, Maps, and Stream API.
