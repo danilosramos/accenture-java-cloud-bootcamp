@@ -1,7 +1,7 @@
-package Ex10_Bank_Account;
+package Ex10_BankAccount;
 import java.util.Scanner;
 
-public class Ex10_Bank_Account {
+public class Ex10_BankAccount {
 
     public static void main(String[] args) {
 

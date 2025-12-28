@@ -1,4 +1,4 @@
-package Ex10_Bank_Account;
+package Ex10_BankAccount;
 
 public class BankAccount {
 
