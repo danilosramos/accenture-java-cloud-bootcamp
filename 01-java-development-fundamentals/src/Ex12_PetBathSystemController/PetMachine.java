@@ -2,38 +2,45 @@ package Ex12_PetBathSystemController;
 
 public class PetMachine {
 
-    private boolean clean;
-
-    private int water;
-
-    private int shampoo;
-
+    private boolean clean = true;
+    private int water = 30;
+    private int shampoo = 10;
     private Pet pet;
 
     public void takeAShower() {
-        if (this.pet == null) {
-            System.out.println("Waiting for pet");
+        if (pet == null) {
+            System.out.println("Waiting for pet.");
             return;
         }
-        this.water -= 10;
-        this.shampoo -= 2;
-        pet.setClean(true);
-        System.out.println("The pet " + pet.getName() + " is clear");
+        if (water < 10 || shampoo < 2) {
+            System.out.println("Not enough water or shampoo.");
+            return;
+        }
 
+        water -= 10;
+        shampoo -= 2;
+        pet.setClean(true);
+        clean = false;
+
+        System.out.println("The pet " + pet.getName() + " is clean.");
     }
 
     public void addWater() {
         if (water == 30) {
-            System.out.println("The machine is full of water");
+            System.out.println("The machine is full of water.");
             return;
         }
+        water = 30;
+        System.out.println("Water tank filled.");
     }
 
     public void addShampoo() {
         if (shampoo == 10) {
-            System.out.println("The machine is full of shampoo");
+            System.out.println("The machine is full of shampoo.");
             return;
         }
+        shampoo = 10;
+        System.out.println("Shampoo tank filled.");
     }
 
     public int getWater() {
@@ -44,35 +51,42 @@ public class PetMachine {
         return shampoo;
     }
 
-    public boolean hasPet(){
+    public boolean hasPet() {
         return pet != null;
     }
 
     public void setPet(Pet pet) {
-        if(!this.clean){
-            System.out.println("The machine is dirty, needs to be cleaned before bringing the pet in.");
+        if (!clean) {
+            System.out.println("The machine is dirty. Clean it first.");
             return;
         }
-
-        if (hasPet()){
-            System.out.println("The pet " + this.pet.getName() + " is in the machine in this moment.");
+        if (hasPet()) {
+            System.out.println("There is already a pet in the machine.");
             return;
         }
-
         this.pet = pet;
+        System.out.println("Pet placed in the machine.");
     }
 
-    public viod removePet(){
-        this.clean = this.pet.isClean();
-        System.out.println("The pet" + this.pet.getName() + "is clean.");
-        this.pet = null;
-
+    public void removePet() {
+        if (pet == null) {
+            System.out.println("There is no pet in the machine.");
+            return;
+        }
+        System.out.println("The pet " + pet.getName() + " was removed.");
+        clean = pet.isClean();
+        pet = null;
     }
 
-    public void washMachine(){
-        this.water -= 3;
-        this.shampoo -= 1;
-        this.clean = true;
+    public void washMachine() {
+        if (water < 3 || shampoo < 1) {
+            System.out.println("Not enough resources to clean the machine.");
+            return;
+        }
+        water -= 3;
+        shampoo -= 1;
+        clean = true;
         System.out.println("The machine is clean.");
     }
+
 }
